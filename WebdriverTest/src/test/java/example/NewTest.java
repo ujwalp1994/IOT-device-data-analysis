@@ -41,7 +41,7 @@ public class NewTest {
 		    List<String> check = new ArrayList<String>();
 		    Thread.sleep(5000);
 		    
-		    Scanner s = new Scanner(new File("/Users/ujwal/eclipse-workspace/Selenium/src/record_data.txt"));
+		    Scanner s = new Scanner(new File("/record_data.txt"));
 		    while(s.hasNext()) {
 		    	check.add(s.next());
 		    }
